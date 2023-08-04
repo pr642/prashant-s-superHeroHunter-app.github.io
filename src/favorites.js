@@ -19,7 +19,7 @@ function load() {
   // if all the characters are deleted from favourites and not character left for displaying
   if (favourites.length === 0) {
     cardContainer.innerHTML =
-      '<p class="no-characters">No characters present in Favourites</p>';
+      '<p class="no-characters">Favourite list is Empty :( </p>';
     return;
   }
 
