@@ -9,7 +9,7 @@ body {
 }
 
 .card {
-  background-color: hsla(0, 0%, 100%, 0.62);
+  background-color: #36c4b8;
   height: 490px;
   width: 250px;
   margin: 40px 30px;
@@ -20,11 +20,8 @@ body {
   z-index: 2;
   backdrop-filter: blur(3px);
 }
-.card:hover {
-  background-color: rgb(145, 139, 139);
-}
 .card img {
-  border-radius: 10px 10px 0 0;
+  border-radius: 50%;
 }
 .character-info .btn {
   font-size: 1.3rem;
@@ -47,6 +44,6 @@ body {
   color: rgb(255, 0, 0);
 }
 .no-characters {
-  font-size: 40px;
+  font-size: 30px;
   color: var(--text-color);
 }
