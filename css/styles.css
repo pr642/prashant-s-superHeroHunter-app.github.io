@@ -265,7 +265,7 @@ input::placeholder {
   list-style: none;
   z-index: 2;
   backdrop-filter: blur(4px);
-  background: var(--list-background);
+  background: var(--navbar-background-color);
   overflow-y: scroll;
 }
 
@@ -295,18 +295,12 @@ input::placeholder {
 #search-results ul::-webkit-scrollbar {
   display: none;
 }
-/* #search-results li:hover {
-  height: 6rem;
-  background: var(--listHover);
-  margin: 0 0.5rem 0 0.5rem;
-} */
+
 #search-results li .hero-name {
-  /* transition: all 0.2s ease; */
   cursor: pointer;
 }
 #search-results li:hover .hero-name {
-  font-size: 1.8rem;
-  color: red;
+  color: green;
 }
 
 .single-search-result {
@@ -333,8 +327,7 @@ input::placeholder {
 }
 
 #search-results li .buttons:hover {
-  background: var(--addBtnHover);
-  border-radius: 20px;
+  border-radius: 50px;
 }
 
 /*------------------------------------------------------ Background Image ------------------------------------------- */
@@ -356,7 +349,7 @@ input::placeholder {
   position: absolute;
   bottom: 100px;
   font-size: 24px;
-  width: 350px;
+  width: 300px;
   color: white;
   letter-spacing: 1px;
   padding: 10px 20px;
@@ -379,12 +372,12 @@ input::placeholder {
 }
 
 .fav-toast {
-  background-color: #8a4a63;
-  box-shadow: 0px 0px 3px 3px white;
+  background-color: green;
+  box-shadow: 0px 0px 3px 3px lightgreen;
 }
 
 .remove-toast {
-  background-color: hsl(40, 41%, 23%);
+  background-color: red;
   box-shadow: 0px 0px 3px 3px white;
 }
 
