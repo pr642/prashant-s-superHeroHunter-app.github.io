@@ -8,7 +8,7 @@ function load() {
   // if favourites is null the we display nothing and return from there
   if (favourites == null) {
     cardContainer.innerHTML =
-      '<p class="no-characters">No characters present in Favourites</p>';
+      '<p class="no-characters">Favourite Characters list is Empty! :( </p>';
     return;
   }
   // if NOT NULL the parsing it to convert it to array
