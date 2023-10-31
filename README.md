@@ -18,6 +18,8 @@ addtofavourites page in the website
 favourites list empty page
 <img width="1280" alt="Screenshot 2023-08-04 at 5 33 58 PM" src="https://github.com/pr642/prashant-s-superHeroHunter-app.github.io/assets/68175294/2bc8aac2-74c1-410c-9d93-c994a9718aac">
 
+## Hosted Link :- https://pr642.github.io/prashant-s-superHeroHunter-app.github.io/
+
 
 
 
